@@ -1,7 +1,8 @@
 {
   "name": "ionic-angular-news",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

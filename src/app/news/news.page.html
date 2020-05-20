@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>news</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let item of news.news">
+    <ion-card-header>
+      <ion-card-subtitle>{{ item.title }}</ion-card-subtitle>
+      <ion-card-title>Card Title</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      {{ item.lead }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
